@@ -13,10 +13,6 @@ our_app = App(fill_board(puzzle),
               game_won=False,
               selected_value=1)
 
-
-rowsValid(our_app.solution_board)
-cols_vald(our_app.solution_board)
-
 update_board(our_app.puzzle_board, 4, 4, 8)
 
 # start the game #
